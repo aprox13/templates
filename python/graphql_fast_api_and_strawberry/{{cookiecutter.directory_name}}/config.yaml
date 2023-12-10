@@ -1,0 +1,2 @@
+api:
+  static-files: ${STATIC_FILES_DIR}

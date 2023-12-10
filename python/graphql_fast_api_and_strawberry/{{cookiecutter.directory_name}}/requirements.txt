@@ -1,0 +1,7 @@
+fastapi==0.104.1
+uvicorn==0.24.0.post1
+dependency-injector
+PyYAML~=6.0.1
+graphql-core==3.2.3
+strawberry-graphql==0.186.1
+black==23.10.0

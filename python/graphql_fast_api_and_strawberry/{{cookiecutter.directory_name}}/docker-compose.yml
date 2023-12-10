@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  graphql_template:
+    build:
+      context: .
+    environment:
+      - _DEPLOY_PORT=8000
+      - WORKERS_COUNT=4
+    volumes:
+      - /tmp/web_service:/tmp
+    ports:
+      - "9000:8000"
